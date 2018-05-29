@@ -2,10 +2,12 @@ package com.mulesoft.training;
 
 import static org.junit.Assert.*;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.mule.api.MuleEvent;
 import org.mule.tck.junit4.FunctionalTestCase;
 
+@Ignore
 public class HelloMavenTest extends FunctionalTestCase {
 
     @Test
